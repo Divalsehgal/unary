@@ -5,7 +5,7 @@ import (
 	"log"
 	"net"
 
-	"github.com/Divalsehgal/unary/tree/master/sumpb"
+	"github.com/itsksaurabh/udemy/grpc/unary/sum/sumpb"
 	"google.golang.org/grpc"
 )
 

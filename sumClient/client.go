@@ -3,9 +3,9 @@ package main
 import (
 	"context"
 	"fmt"
-	"log"  
+	"log"
 
-	"github.com/Divalsehgal/unary/tree/master/sumpb"
+	"github.com/Divalsehgal/unary/sum/sumpb"
 	"google.golang.org/grpc"
 )
 
@@ -18,10 +18,6 @@ func main() {
 	defer conn.Close()
 	c := sumpb.NewSumClient(conn)
 
-
-
-
-	
 	// numbers to add
 	num := sumpb.Numbers{
 		A: 10,

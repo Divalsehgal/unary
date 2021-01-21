@@ -1,7 +1,7 @@
 syntax = "proto3";
 
 package sum;
-option go_package=".;sumpb";
+option go_package="github.com/Divalsehgal/unary/sum/sumpb";
 
 message Numbers {
     int64 a = 1;
